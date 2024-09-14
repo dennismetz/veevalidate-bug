@@ -1,0 +1,26 @@
+#page-wrapper {
+    background-color: #333;
+    padding-bottom: 30px;
+}
+
+#home-wrapper,
+#result-wrapper {
+    background-color: #fff;
+    max-width: 1024px;
+}
+
+.invalid-field {
+    display: block;
+}
+
+.form-control {
+  display: block;
+  color: #666666;
+  background-color: #dddddd;
+  border: 1px solid #c1c1c1;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+  &:focus {
+    background-color: #dddddd;
+  }
+}
