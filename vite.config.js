@@ -18,13 +18,13 @@ export default defineConfig({
 			'~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
 		}
 	},
-	server: {
-		host: '0.0.0.0',
-		port: 3333,
-		hot: true,
-		open: false,
-		cors: true
-	},
+	// server: {
+	// 	host: '0.0.0.0',
+	// 	port: 3333,
+	// 	hot: true,
+	// 	open: false,
+	// 	cors: true
+	// },
 	build: {
 		manifest: true,
 	},
