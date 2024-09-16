@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run deploy",
-    "deploy": "git add dist && git commit -m '[TASK] deploy' && git push",
     "preview": "vite preview"
   },
   "browserslist": [
@@ -19,12 +18,8 @@
     "@vee-validate/i18n": "^4.13.2",
     "@vee-validate/rules": "^4.13.2",
     "axios": "^1.7.3",
-    "pinia": "^2.2.1",
     "vee-validate": "^4.13.2",
-    "vue": "^3.2",
-    "vue-chartjs": "^5.3.1",
-    "vue-router": "^4.4.3",
-    "vue-toastification": "^2.0.0-rc.5"
+    "vue": "^3.2"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11",

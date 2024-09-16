@@ -64,7 +64,6 @@ const { errorMessage } = useField(fieldName.value, props.validation, {
 })
 
 // return input value
-const isValueChanged = ref(false)
 const emit = defineEmits([
   'update:modelValue',
   'update:errorMessage'
@@ -73,7 +72,6 @@ const emit = defineEmits([
 // tell parent input was updated
 watch(inputValue, debounce((newValue) => {
   emit('update:modelValue', newValue)
-  isValueChanged.value = true
 }, 300))
 
 // return error message

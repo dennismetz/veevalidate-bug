@@ -6,6 +6,7 @@
           <form-input-wrapper v-model="entry.name" field="entity.name1" :id="'entity.name' + entry.id" validation="required" />
           <hr>
         </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </Form>
 
       <pre>{{ entries }}</pre>
@@ -28,6 +29,7 @@ onMounted(() => {
     entries.value = [
       { id: 12312112124122, name: "test number one" },
       { id: 11023102932346, name: "this is another test" },
+      { id: 11029381033479, name: "" },
       { id: 11029381033479, name: "and this one is test number 3" }
     ];
   }, 900)();
